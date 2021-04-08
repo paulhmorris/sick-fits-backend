@@ -7,7 +7,8 @@
   "scripts": {
     "dev": "keystone-next",
     "seed-data": "keystone-next --seed-data",
-    "start": "npm run dev"
+    "start": "npm run dev",
+    "heroku-postbuild": "npm run build"
   },
   "eslintConfig": {
     "extends": "wesbos/typescript.js",
